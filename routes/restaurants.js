@@ -1,5 +1,5 @@
 const express = require("express");
-const router = express.Routes();
+const router = express.Router();
 const app = require("../src/app")
 const Restaurant = require("../model/index");
 const { check, validationResult } = require("express-validator");
